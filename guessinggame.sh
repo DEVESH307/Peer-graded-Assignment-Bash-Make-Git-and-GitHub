@@ -15,7 +15,7 @@ predict
 
 while [[ $guess -ne $filesAndDirectories ]]
 do
-	if [[ $guess -lt $filesAndDirectories ]] 
+	if [[ $guess -gt $filesAndDirectories ]] 
 	then
 		echo "Your guessing number is too high!" && echo
 	else
